@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "hyprpaper-switcher",
+  "title": "Hyprpaper Switcher",
+  "description": "Hyprpaper wallpaper switcher",
+  "categories": [],
+  "license": "MIT",
+  "author": "lemm1ng",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "papersw",
+      "title": "papersw",
+      "subtitle": "Hyprpaper Switcher",
+      "description": "Switch wallapaper",
+      "mode": "view"
+    },
+    {
+      "name": "papersw_settings",
+      "title": "papersw_settings",
+      "subtitle": "Hyprpaper Switcher settings",
+      "description": "Change extension settings",
+      "mode": "view"
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.8.2",
+    "image-size": "^2.0.2",
+    "jimp": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
