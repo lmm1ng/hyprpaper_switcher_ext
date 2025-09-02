@@ -18,7 +18,7 @@ Switch Hyprpaper wallpapers from a fast, searchable list with rich previews and 
 
 - Linux with Hyprland
 - Hyprpaper available via `hyprctl hyprpaper`
-- The Hyprland instance signature file at `/tmp/hyprland_instance_signature`
+- The Hyprland instance signature file at `/tmp/hyprland_instance_signature` (`echo $HYPRLAND_INSTANCE_SIGNATURE > /tmp/hyprland_instance_signature` on autostart)
 - Images in one of: jpg, jpeg, png, webp
 
 ## Commands
