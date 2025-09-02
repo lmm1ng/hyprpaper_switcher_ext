@@ -1,6 +1,7 @@
 import {
   Action,
   ActionPanel,
+  Detail,
   Form,
   LocalStorage,
   showToast,

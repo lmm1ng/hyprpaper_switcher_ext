@@ -1,4 +1,3 @@
-import { Err } from "@vicinae/api/dist/api/lib/result";
 import { exec } from "child_process";
 import { readFile } from "fs/promises";
 import { HYPRLAND_SIGNATURE_PATH } from "../constants/hyprland";
