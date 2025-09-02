@@ -4,6 +4,8 @@
 
 Switch Hyprpaper wallpapers from a fast, searchable list with rich previews and metadata.
 
+<img src="assets/preview.png" alt="Hyprpaper Switcher preview" width="500" />
+
 ## Features
 
 - Browse wallpapers from your chosen folder
